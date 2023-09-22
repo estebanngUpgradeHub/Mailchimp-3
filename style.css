@@ -1,0 +1,50 @@
+
+main {
+    display: flex;
+    width: 55%;
+    
+}
+img {
+
+    width: 200px;
+    
+}
+.monos {
+    width: 80%;
+}
+.logo-mono {    
+    margin-right: 70px;
+}
+
+.todo {
+    display: grid;
+    margin-right: 50px;
+}
+.boton{
+    display: flex;
+     
+}
+        
+.listas {
+    display: flex ;    
+}
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: rgb(0, 124, 137);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+button {
+    width: 60px;
+    height: 40px; 
+    margin: 10px;
+}
+section {
+    margin-right: 50px;
+}
